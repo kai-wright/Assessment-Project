@@ -1,0 +1,28 @@
+/* Reset.css */
+/* Standardisation of properties */
+/* Made by Kai Wright */
+
+body{
+    line-height: 1;
+}
+
+html, body,
+header, article, section, aside, footer,
+div, audio, video, canvas,
+picture, img, figure, figcaption,
+h1, h2, h3, h4, h5, h6, p,
+ul, li, dl, dt, dd,
+form, label, input, button, textarea {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    list-style: none;
+    line-height: 1.3;
+}
+
+/* Debugging markers */
+
+/* * {border: 1px solid red !important} */
